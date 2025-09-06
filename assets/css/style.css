@@ -14,6 +14,43 @@ header {
   display: flex;
 }
 
+.header-img {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+figure {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.2rem, solid, white;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-style: none;
+  border-radius: 0%;
+}
+
 h1,
 h2 {
   color: white;
