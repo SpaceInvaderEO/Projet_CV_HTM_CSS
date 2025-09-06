@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  margin: 0 10%;
+  background-color: white;
+}
+
+header {
+  background-color: #17abb3;
+  display: flex;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+h3 {
+  color: #17abb3;
+}
+
+.contact-info a {
+  color: white;
+}
+
+.header-list-left {
+  color: white;
+}
+
+.header-list-right {
+  color: white;
+}
+
+.main-cv-left {
+  background-color: #e3e3e3;
+}
+
+.date-color {
+  color: #17abb3;
+}
+
+ul li::marker {
+  color: #17abb3;
+}
+
+footer {
+  background-color: #17abb3;
+}
+
+footer p {
+  color: white;
+}
