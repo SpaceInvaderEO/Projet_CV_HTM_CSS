@@ -74,6 +74,7 @@ img {
   margin-right: 5px;
   border-style: none;
   border-radius: 0%;
+  color: white;
 }
 
 h1,
@@ -198,6 +199,12 @@ p {
   padding: 2rem;
 }
 
+.sub-text {
+  font-size: 0.85em;
+  margin: 0;
+  color: #555;
+}
+
 .flex-div {
   display: flex;
   justify-content: space-between;
@@ -257,10 +264,26 @@ i {
 
 footer {
   background-color: #17abb3;
+  padding: 1rem 2rem;
 }
 
 footer p {
   text-align: center;
   color: white;
-  font-size: small;
+  font-size: x-small;
+}
+
+footer .footer-up {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .footer-down {
+  text-align: center;
+}
+
+.test-div {
+  display: flex;
 }
