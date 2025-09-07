@@ -109,7 +109,6 @@ h3 {
   width: 100%;
   padding: 0;
   margin: 0;
-  gap: 0;
 }
 
 .contact-info li {
@@ -153,6 +152,7 @@ main {
 
 p {
   font-size: small;
+  margin: 0;
 }
 
 .main-cv-left {
@@ -178,6 +178,17 @@ p {
 
 .left-div ul {
   list-style-position: inside;
+}
+
+.element-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.element-div p {
+  margin: 0;
 }
 
 .main-cv-right {
@@ -210,6 +221,12 @@ p {
   padding: 0;
 }
 
+.profile-text p {
+  text-indent: 2em;
+  text-align: justify;
+  margin: 0;
+}
+
 .left-li {
   font-size: small;
 }
@@ -224,6 +241,7 @@ main li {
 
 ul li::marker {
   color: #17abb3;
+  font-size: 1.3em;
 }
 
 strong,
