@@ -113,9 +113,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  width: 70%;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .contact-info li {
